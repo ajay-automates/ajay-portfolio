@@ -1,6 +1,6 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, ExternalLink, X, ArrowRight, Zap } from "lucide-react";
+import React, { useState } from "react";
+import { Github, Mail, ExternalLink, X, ArrowRight, Zap } from "lucide-react";
 
 export default function Portfolio() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -211,7 +211,7 @@ export default function Portfolio() {
 
         <section className="min-h-screen flex items-center justify-center px-6 py-12">
           <div className="max-w-4xl w-full text-center">
-            <h2 className="text-6xl md:text-7xl font-black mb-8"><span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Let's Build Together</span></h2>
+            <h2 className="text-6xl md:text-7xl font-black mb-8"><span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Let&apos;s Build Together</span></h2>
             <p className="text-2xl text-gray-300 mb-12">Open to AI Engineer, ML Engineer & Founding Engineer roles.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a href="mailto:nelavetla.a@northeastern.edu" className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-xl hover:shadow-2xl transition-all hover:scale-105 flex items-center justify-center gap-2"><Mail size={24} /> Send Email</a>
