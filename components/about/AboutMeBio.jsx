@@ -9,10 +9,11 @@ function AboutMeBio() {
 			<div className="w-full sm:w-1/4 mb-7 sm:mb-0">
 				<Image
 					src="/images/profile.jpeg"
-					width={200}
-					height={200}
+					width={400}
+					height={400}
 					className="rounded-lg w-full h-auto"
 					alt="Ajay Kumar Reddy Nelavetla - AI/ML Engineer"
+					quality={95}
 					priority
 				/>
 			</div>

@@ -39,11 +39,13 @@ function RelatedProjects() {
 					return (
 						<Image
 							src={project.img}
-							className="rounded-xl cursor-pointer"
-							width="400"
-							height="400"
+							className="rounded-xl cursor-pointer w-full h-auto"
+							width={600}
+							height={600}
 							alt={project.title}
 							key={project.id}
+							quality={95}
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
 						/>
 					);
 				})}

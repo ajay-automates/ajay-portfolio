@@ -40,8 +40,10 @@ function ProjectSingle(props) {
 								className="rounded-xl cursor-pointer shadow-lg sm:shadow-none w-full h-auto"
 								alt={project.title}
 								key={project.id}
-								width={100}
-								height={90}
+								width={800}
+								height={600}
+								quality={95}
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
 						</div>
 					);
